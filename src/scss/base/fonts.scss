@@ -1,3 +1,9 @@
 $font-base-url: "../../fonts/";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('http://fonts.cdnfonts.com/css/harabara');
+
+@font-face {
+    font-family: 'Harabara';
+    src: url(/src/fonts/Harabara.ttf) format('ttf'), url(/src/fonts/Harabara.woff) format('woff');
+    font-weight: 400;
+}
